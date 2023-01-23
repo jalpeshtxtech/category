@@ -12,6 +12,5 @@
             "email": "jalpesh.patel@txtech.co"
         }
     ],
-    "require": {},
-    "minimum-stability": "stable"
+    "require": {}
 }
