@@ -20,15 +20,7 @@ class CategoryProvider extends ServiceProvider
 
     public function register()
     {
-        /*
-        * Register the service provider for the dependency.
-        */
-        $this->app->register('Jalpeshtxtech\Category\CategoryProvider');
-        /*
-        * Create aliases for the dependency.
-        */
-        $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-        $loader->alias('AuthorizationServer', 'Jalpeshtxtech\Category\Facades\CategoryFacade');
-        $loader->alias('ResourceServer', 'Jalpeshtxtech\Category\Facades\ResourceServerFacade');
+        // register our controller
+        $this->app->make('Jalpeshtxtech\Category\Controllers\CategoryController');
     }
 }
