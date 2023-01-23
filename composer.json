@@ -12,5 +12,16 @@
             "email": "jalpesh.patel@txtech.co"
         }
     ],
-    "require": {}
+    "require": {},
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jalpeshtxtech\\Category\\Providers\\CategoryProvider"
+            ],
+            "aliases": {
+                "Category": "Jalpeshtxtech\\Category\\Category"
+            }
+        }
+    }
 }
