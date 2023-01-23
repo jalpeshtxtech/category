@@ -22,5 +22,6 @@ class CategoryProvider extends ServiceProvider
     {
         // register our controller
         $this->app->make('Jalpeshtxtech\Category\Controllers\CategoryController');
+        
     }
 }
