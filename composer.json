@@ -13,12 +13,5 @@
         }
     ],
     "require": {},
-    "minimum-stability": "stable",
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Jalpeshtxtech\\Category\\Providers\\CategoryProvider"
-            ]
-        }
-    }
+    "minimum-stability": "stable"
 }
