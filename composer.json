@@ -1,0 +1,16 @@
+{
+    "name": "jalpeshtxtech/category",
+    "description": "This package is develop for learning purpose",
+    "autoload": {
+        "psr-4": {
+            "Jalpeshtxtech\\Category\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jalpesh Patel",
+            "email": "jalpesh.patel@txtech.co"
+        }
+    ],
+    "require": {}
+}
